@@ -23,7 +23,7 @@ A command-line task management application built in Go using Cobra CLI framework
 
 ```bash
 # Clone the repository
-git clone https://github.com/Badara-Senpai/cli_task_manager.git
+git clone https://github.com/Badara-Senpai/cli-task-manager.git
 
 # Navigate to project directory
 cd cli_task_manager
