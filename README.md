@@ -46,7 +46,6 @@ Usage:
 
 Available Commands:
   add         Adds a task to your task list
-  completion  Generate the autocompletion script for the specified shell
   do          Marks a task as completed
   help        Help about any command
   list        List all of your tasks.
