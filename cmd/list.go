@@ -13,7 +13,7 @@ var listCmd = &cobra.Command{
 	Run: func(cmd *cobra.Command, args []string) {
 		tasks, err := db.AllTasks()
 		if err != nil {
-			fmt.Println("Something went wrong: ", err.Error())
+			fmt.Println("Something went wrong: ", err)
 			os.Exit(1)
 		}
 
