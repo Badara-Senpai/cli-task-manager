@@ -36,7 +36,7 @@ func AllTasks() ([]Task, error) {
 		bucket := tx.Bucket(taskBucket)
 		c := bucket.Cursor()
 
-		for k, v := c.First(); k != nil; c.Next() {
+		for k, v := c.First(); k != nil; k, v = c.Next() {
 			tasks = append(tasks, Task{
 				Key:   btoi(k),
 				Value: string(v),
