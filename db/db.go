@@ -29,7 +29,7 @@ func Init(dbPath string) error {
 	})
 }
 
-func AllTask() ([]Task, error) {
+func AllTasks() ([]Task, error) {
 	var tasks []Task
 
 	err := db.View(func(tx *bolt.Tx) error {
